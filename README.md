@@ -13,8 +13,9 @@ This is all you need to get a wallet working. Scripts:
 
 `./mkw.sh DIRECTORY   #Creates a wallet on DIRECTORY`
 
-`./addcred.sh directory tnsname username password #Adds a credential on the directory with a tnsname and user/password`
+`./addcred.sh DIRACTORY TNSNAME USERNAME PASSWORD #Adds a credential on the DIRECTORY with a TNSNAME and USERNAME/PASSWORD`
 
 `./list.sh DIRECTORY  #List wallet entries on DIRECTORY`
 
-
+# Configuration files
+You still need a valid tnsname, sqlnet.ora with the wallet location and the wallet directory created by this.
