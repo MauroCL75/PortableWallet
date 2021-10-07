@@ -12,7 +12,9 @@ Download the jars with make all. You need maven to do this. Run:
 This is all you need to get a wallet working. Scripts:
 
 `./mkw.sh DIRECTORY   #Creates a wallet on DIRECTORY`
+
 `./addcred.sh directory tnsname username password #Adds a credential on the directory with a tnsname and user/password`
+
 `./list.sh DIRECTORY  #List wallet entries on DIRECTORY`
 
 
