@@ -19,3 +19,6 @@ This is all you need to get a wallet working. Scripts:
 
 # Configuration files
 You still need a valid tnsname, sqlnet.ora with the wallet location and the wallet directory created by this.
+
+# Credits
+This is based on work by [mguessan](https://github.com/mguessan/oracle-wallet-recover)
